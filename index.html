@@ -9,13 +9,13 @@
   </head>
   <body>
     <header>
-      <div>
-        <img src="images/magnifying-glass.png" alt="" />
-        <input type="text" />
-      </div>
-      <img src="images/filter-icon.png" />
+      <form id="search-container">
+        <img id="magnifying-glass" src="images/magnifying-glass.png" alt="" />
+        <input type="text" placeholder="Anywhere" />
+      </form>
+      <img id="filter" src="images/filter-icon.png" />
     </header>
-    <nav>
+    <nav id="housing-nav">
       <div class="nav-item">
         <img src="images/beachfront.png" alt="" class="nav-item__image" />
         <span class="nav-item__text">Beachfront</span>
@@ -51,92 +51,128 @@
     </nav>
     <main id="card-container">
       <div class="card">
-        <img src="images/house.jpg" alt="" class="card__image" />
-        <span class="card__location-text">Cavinti, Philippines</span>
-        <span class="card__location-detail">On Lake Caliraya</span>
-        <span class="card__dates">Apr 12 - 17</span>
-        <span class="card__price">$565 night</span>
-        <span class="card__rating">4.86</span>
+        <div class="card__image-container">
+          <img src="images/house.jpg" alt="" class="card__image" />
+        </div>
+        <div class="card__info">
+          <span class="card__location-text">Cavinti, Philippines</span>
+          <span class="card__location-detail">On Lake Caliraya</span>
+          <span class="card__dates">Apr 12 - 17</span>
+          <span class="card__price">$565 night</span>
+          <span class="card__rating">4.86</span>
+        </div>
       </div>
       <div class="card">
-        <img src="images/house.jpg" alt="" class="card__image" />
-        <span class="card__location-text">Cavinti, Philippines</span>
-        <span class="card__location-detail">On Lake Caliraya</span>
-        <span class="card__dates">Apr 12 - 17</span>
-        <span class="card__price">$565 night</span>
-        <span class="card__rating">4.86</span>
+        <div class="card__image-container">
+          <img src="images/house.jpg" alt="" class="card__image" />
+        </div>
+        <div class="card__info">
+          <span class="card__location-text">Cavinti, Philippines</span>
+          <span class="card__location-detail">On Lake Caliraya</span>
+          <span class="card__dates">Apr 12 - 17</span>
+          <span class="card__price">$565 night</span>
+          <span class="card__rating">4.86</span>
+        </div>
       </div>
       <div class="card">
-        <img src="images/house.jpg" alt="" class="card__image" />
-        <span class="card__location-text">Cavinti, Philippines</span>
-        <span class="card__location-detail">On Lake Caliraya</span>
-        <span class="card__dates">Apr 12 - 17</span>
-        <span class="card__price">$565 night</span>
-        <span class="card__rating">4.86</span>
+        <div class="card__image-container">
+          <img src="images/house.jpg" alt="" class="card__image" />
+        </div>
+        <div class="card__info">
+          <span class="card__location-text">Cavinti, Philippines</span>
+          <span class="card__location-detail">On Lake Caliraya</span>
+          <span class="card__dates">Apr 12 - 17</span>
+          <span class="card__price">$565 night</span>
+          <span class="card__rating">4.86</span>
+        </div>
       </div>
       <div class="card">
-        <img src="images/house.jpg" alt="" class="card__image" />
-        <span class="card__location-text">Cavinti, Philippines</span>
-        <span class="card__location-detail">On Lake Caliraya</span>
-        <span class="card__dates">Apr 12 - 17</span>
-        <span class="card__price">$565 night</span>
-        <span class="card__rating">4.86</span>
+        <div class="card__image-container">
+          <img src="images/house.jpg" alt="" class="card__image" />
+        </div>
+        <div class="card__info">
+          <span class="card__location-text">Cavinti, Philippines</span>
+          <span class="card__location-detail">On Lake Caliraya</span>
+          <span class="card__dates">Apr 12 - 17</span>
+          <span class="card__price">$565 night</span>
+          <span class="card__rating">4.86</span>
+        </div>
       </div>
       <div class="card">
-        <img src="images/house.jpg" alt="" class="card__image" />
-        <span class="card__location-text">Cavinti, Philippines</span>
-        <span class="card__location-detail">On Lake Caliraya</span>
-        <span class="card__dates">Apr 12 - 17</span>
-        <span class="card__price">$565 night</span>
-        <span class="card__rating">4.86</span>
+        <div class="card__image-container">
+          <img src="images/house.jpg" alt="" class="card__image" />
+        </div>
+        <div class="card__info">
+          <span class="card__location-text">Cavinti, Philippines</span>
+          <span class="card__location-detail">On Lake Caliraya</span>
+          <span class="card__dates">Apr 12 - 17</span>
+          <span class="card__price">$565 night</span>
+          <span class="card__rating">4.86</span>
+        </div>
       </div>
       <div class="card">
-        <img src="images/house.jpg" alt="" class="card__image" />
-        <span class="card__location-text">Cavinti, Philippines</span>
-        <span class="card__location-detail">On Lake Caliraya</span>
-        <span class="card__dates">Apr 12 - 17</span>
-        <span class="card__price">$565 night</span>
-        <span class="card__rating">4.86</span>
+        <div class="card__image-container">
+          <img src="images/house.jpg" alt="" class="card__image" />
+        </div>
+        <div class="card__info">
+          <span class="card__location-text">Cavinti, Philippines</span>
+          <span class="card__location-detail">On Lake Caliraya</span>
+          <span class="card__dates">Apr 12 - 17</span>
+          <span class="card__price">$565 night</span>
+          <span class="card__rating">4.86</span>
+        </div>
       </div>
     </main>
     <footer>
       <h2>Inspiration for future getaways</h2>
-      <nav></nav>
-      <div class="footer__suggestions">
-        <div class="suggestion">
-          <span>Canmore</span>
+      <nav>
+        <span>Popular</span>
+        <span>Popular</span>
+        <span>Popular</span>
+        <span>Popular</span>
+        <span>Popular</span>
+        <span>Popular</span>
+        <span>Popular</span>
+        <span>Popular</span>
+        <span>Popular</span>
+        <span>Popular</span>
+        <span>Popular</span>
+      </nav>
+      <div class="footer__section footer__suggestions">
+        <div class="footer__suggestion">
+          <b>Canmore</b>
           <span>Pet-friendly rentals</span>
         </div>
-        <div class="suggestion">
-          <span>Canmore</span>
+        <div class="footer__suggestion">
+          <b>Canmore</b>
           <span>Pet-friendly rentals</span>
         </div>
-        <div class="suggestion">
-          <span>Canmore</span>
+        <div class="footer__suggestion">
+          <b>Canmore</b>
           <span>Pet-friendly rentals</span>
         </div>
-        <div class="suggestion">
-          <span>Canmore</span>
+        <div class="footer__suggestion">
+          <b>Canmore</b>
           <span>Pet-friendly rentals</span>
         </div>
-        <div class="suggestion">
-          <span>Canmore</span>
+        <div class="footer__suggestion">
+          <b>Canmore</b>
           <span>Pet-friendly rentals</span>
         </div>
-        <div class="suggestion">
-          <span>Canmore</span>
+        <div class="footer__suggestion">
+          <b>Canmore</b>
           <span>Pet-friendly rentals</span>
         </div>
-        <div class="suggestion">
-          <span>Canmore</span>
+        <div class="footer__suggestion">
+          <b>Canmore</b>
           <span>Pet-friendly rentals</span>
         </div>
-        <div class="suggestion">
-          <span>Canmore</span>
+        <div class="footer__suggestion">
+          <b>Canmore</b>
           <span>Pet-friendly rentals</span>
         </div>
       </div>
-      <div class="footer__support">
+      <div class="footer__section footer__support">
         <a href="">Help Center</a>
         <a href="">Help Center</a>
         <a href="">Help Center</a>
@@ -144,7 +180,7 @@
         <a href="">Help Center</a>
         <a href="">Help Center</a>
       </div>
-      <div class="footer__hosting">
+      <div class="footer__section footer__hosting">
         <a href="">Airbnb your home</a>
         <a href="">Airbnb your home</a>
         <a href="">Airbnb your home</a>
@@ -152,7 +188,7 @@
         <a href="">Airbnb your home</a>
         <a href="">Airbnb your home</a>
       </div>
-      <div class="footer__airbnb">
+      <div class="footer__section footer__airbnb">
         <a href="">Newsroom</a>
         <a href="">Newsroom</a>
         <a href="">Newsroom</a>
@@ -160,11 +196,10 @@
         <a href="">Newsroom</a>
         <a href="">Newsroom</a>
       </div>
-      <div class="footer__last-info">
-        <span>Globe Image</span>
-        <span>English (US)</span>
-        <span>$ USD</span>
-        <span>@ 2024 Airbnb, Inc.</span>
+      <div class="footer__section footer__last-info">
+        <!-- <span>Globe Image</span> -->
+        <span>English (US) $ USD</span>
+        <p>@ 2024 Airbnb, Inc.</p>
       </div>
     </footer>
   </body>
