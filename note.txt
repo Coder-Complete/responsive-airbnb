@@ -1,15 +1,14 @@
 - first building it in mobile view, not responsive at all
   - show diff b/w inline and block elements
 - responsive things to fix
-  - spacing in general -> flex
+  - footer sections -> media query, flex, & width of each column as percentage
+    - first do media query & flex jcspb, then show the effect of width
+  - cards grid
+    - show flex first and limited b/c one card looks bad for large screen that can only still fit one card
+    - this is a case for grid being better, because there's an easier solution for this
+  - grid challenge -> footer suggestions
   - input bar
     - width increases from 0 to 743px -> max-width
     - 744px width and after, ui changes significantly -> media queries & js
   - nav
     - 744px width and after, ui changes significantly -> media queries & js
-  - cards grid
-    - show flex first and limited b/c one card looks bad for large screen that can only still fit one card
-    - this is a case for grid being better, because there's an easier solution for this
-    - would it be possible to do with just flex?
-  - footer__suggestions -> flex wrap
-  - footer items...
