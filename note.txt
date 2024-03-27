@@ -1,6 +1,11 @@
 - first building it in mobile view, not responsive at all
   - show diff b/w inline and block elements
 - responsive things to fix
+  - input bar
+    - width increases from 0 to 743px -> max-width or percentage
+      - show percentage first but show that for large screen wouldn't be good
+        - but for airbnb it would be fine b/c they refresh the ui after 743px width
+      - then show how max-width would help
   - footer sections -> media query, flex, & width of each column as percentage
     - first do media query & flex jcspb, then show the effect of width
   - footer very bottom section -> changing flex direction
@@ -19,11 +24,8 @@
     - show flex first and limited b/c one card looks bad for large screen that can only still fit one card
     - this is a case for grid being better, because there's an easier solution for this
   - grid challenge -> footer suggestions
-  - input bar
-    - width increases from 0 to 743px -> max-width or percentage
-      - show percentage first but show that for large screen wouldn't be good
-        - but for airbnb it would be fine b/c they refresh the ui after 743px width
-      - then show how max-width would help
   - header / top section - changes a lot after 743px
     - challenge or do?
     - maybe challenge then do in a follow-up video?
+    - observations
+      - 
