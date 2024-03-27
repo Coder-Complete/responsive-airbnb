@@ -141,6 +141,17 @@ footer {
   flex-direction: column;
 }
 
+.footer__terms::before {
+  content: "•";
+  margin-right: 4px;
+  font-size: 40%;
+  vertical-align: middle;
+}
+
+.footer__terms:first-child::before {
+  content: none;
+}
+
 @media screen and (min-width: 744px) {
   .footer__section {
     width: calc((100% - 40px) / 3); /* padding is 20px per side */
