@@ -142,6 +142,7 @@ footer {
 }
 
 .footer__last-info {
+  padding-top: 10px;
   border-top: 1px solid rgb(207, 207, 207);
 }
 
@@ -194,5 +195,19 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+}
+
+@media screen and (min-width: 1128px) {
+  .footer__last-info {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  .footer__last-info__bottom-two-lines-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
   }
 }
