@@ -141,6 +141,10 @@ footer {
   flex-direction: column;
 }
 
+.footer__last-info {
+  border-top: 1px solid rgb(207, 207, 207);
+}
+
 .footer__last-info__settings {
   font-weight: 600;
   padding: 8px 0;
@@ -159,6 +163,8 @@ footer {
 }
 
 .footer__last-info__bottom-two-lines-container {
+  display: flex;
+  flex-direction: column;
   font-size: 14px;
 }
 
@@ -178,5 +184,15 @@ footer {
     justify-content: space-between;
     border-top: 1px solid rgb(207, 207, 207);
     border-bottom: 1px solid rgb(207, 207, 207);
+  }
+
+  .footer__last-info__settings {
+    text-align: center;
+  }
+
+  .footer__last-info__bottom-two-lines-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
