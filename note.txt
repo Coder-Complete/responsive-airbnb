@@ -4,6 +4,15 @@
   - footer sections -> media query, flex, & width of each column as percentage
     - first do media query & flex jcspb, then show the effect of width
   - footer very bottom section -> changing flex direction
+    - also, use :after to do the bullets for the terms and realize afterwards that you will want flex so the items wrap nicely like Airbnb's
+    - start by ignoring social media buttons
+    - then add them after
+    - middle size starts at 744px
+      - social media buttons appear
+      - content is centered
+    - big size starts at 1128px
+      - 2nd and 3rd item get grouped to the left
+      - 1st item goes to the right
   - cards grid
     - show flex first and limited b/c one card looks bad for large screen that can only still fit one card
     - this is a case for grid being better, because there's an easier solution for this
