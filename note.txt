@@ -28,4 +28,27 @@
     - challenge or do?
     - maybe challenge then do in a follow-up video?
     - observations
-      - 
+      - small -> medium
+        - top nav
+          - left - airbnb logo
+          - right - airbnb your home, globe, profile
+          - idea - already in html with display none
+        - second top nav
+          - centered - stays, experiences, online experiences
+          - idea - already in html with display none
+        - different search bar
+          - idea - do first with html already there, then show that sometimes it makes sense to do with js instead b/c html file might seem long
+        - category nav now has arrows
+          - idea - already in html with display none
+        - filters and a toggle are now next to category nav
+          - idea - already in html with display none
+      - medium -> big (950px)
+        - second top nav slides up in between both sides of the top nav
+          - idea - have second top nav be positioned relative to top nav
+            - medium screen - top 0, left: 50%, translate 50% or whatever
+            - big screen - top "-100%" (negative height of top nav)
+              - media query at 950px
+      - show that the above things can be done with js instead
+        - pro: html file is simpler and less confusing
+        - con: js file has more stuff
+          - why this is ok: react

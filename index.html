@@ -9,11 +9,29 @@
   </head>
   <body>
     <header>
-      <form id="search-container">
-        <img id="magnifying-glass" src="images/magnifying-glass.png" alt="" />
-        <input type="text" placeholder="Anywhere" />
-      </form>
-      <img id="filter" src="images/filter-icon.png" />
+      <div class="header__top-bar">
+        <img src="images/logo.png" alt="" />
+        <div class="header__top-bar__right">
+          <span>Airbnb your home</span>
+          <img src="images/globe.png" />
+          <div class="header__top-bar__right--profile">
+            <img src="images/hamburger.png" alt="" />
+            <img src="images/profile-icon.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <nav>
+        <span>Stays</span>
+        <span>Experiences</span>
+        <span>Online Experiences</span>
+      </nav>
+      <div class="header__search-bar">
+        <form id="search-container">
+          <img id="magnifying-glass" src="images/magnifying-glass.png" alt="" />
+          <input type="text" placeholder="Anywhere" />
+        </form>
+        <img id="filter" src="images/filter-icon.png" />
+      </div>
     </header>
     <nav id="housing-nav">
       <div class="nav-item">

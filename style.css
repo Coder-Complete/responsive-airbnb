@@ -10,8 +10,51 @@ a {
 
 header {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   padding: 20px;
+  gap: 10px;
+}
+
+.header__top-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__top-bar img {
+  height: 35px;
+  width: 35px;
+}
+
+.header__top-bar__right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header__top-bar__right--profile {
+  border: 1px solid darkgray;
+  border-radius: 20px;
+  padding: 5px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.header__top-bar__right--profile img {
+  width: 25px;
+  height: 25px;
+}
+
+header nav {
+  align-self: center;
+}
+
+.header__search-bar {
+  display: flex;
+  justify-content: center;
 }
 
 #search-container {
