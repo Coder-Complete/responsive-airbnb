@@ -17,25 +17,38 @@ header {
 }
 
 .header__top-bar {
-  display: flex;
+  display: none;
   justify-content: space-between;
+  position: relative;
+}
+
+#logo {
+  height: 35px;
+  width: 35px;
 }
 
 .header__top-bar img {
-  height: 35px;
-  width: 35px;
+  height: 20px;
+  width: 20px;
+}
+
+.header__top-bar nav {
+  display: none;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .header__top-bar__right {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
 }
 
 .header__top-bar__right--profile {
   border: 1px solid darkgray;
-  border-radius: 20px;
-  padding: 5px;
+  border-radius: 25px;
+  padding: 5px 10px;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -44,11 +57,17 @@ header {
 }
 
 .header__top-bar__right--profile img {
-  width: 25px;
-  height: 25px;
+  height: 15px;
+  width: 15px;
+}
+
+#profile-img {
+  height: 30px;
+  width: 30px;
 }
 
 header nav {
+  display: none;
   align-self: center;
 }
 
@@ -231,6 +250,18 @@ footer {
 }
 
 @media screen and (min-width: 744px) {
+  .header__top-bar {
+    display: flex;
+  }
+
+  header nav {
+    display: flex;
+  }
+
+  .header__top-bar nav {
+    display: none;
+  }
+
   .footer__section {
     width: calc((100% - 40px) / 3); /* padding is 20px per side */
     border: none;
@@ -255,6 +286,16 @@ footer {
   }
 
   .footer__last-info__icons {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 950px) {
+  header nav {
+    display: none;
+  }
+
+  .header__top-bar nav {
     display: flex;
   }
 }
