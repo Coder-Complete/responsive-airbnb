@@ -1,5 +1,13 @@
 - first building it in mobile view, not responsive at all
   - show diff b/w inline and block elements
+- there are many different properties
+  - percentages
+  - max-width
+  - flex
+  - grid
+  - media queries
+  - aspect ratio for images
+  - js
 - responsive things to fix
   - input bar
     - width increases from 0 to 743px -> max-width or percentage
