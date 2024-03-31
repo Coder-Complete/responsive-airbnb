@@ -1,1 +1,54 @@
-- first building it in mobile view
+- first building it in mobile view, not responsive at all
+  - show diff b/w inline and block elements
+- responsive things to fix
+  - input bar
+    - width increases from 0 to 743px -> max-width or percentage
+      - show percentage first but show that for large screen wouldn't be good
+        - but for airbnb it would be fine b/c they refresh the ui after 743px width
+      - then show how max-width would help
+  - footer sections -> media query, flex, & width of each column as percentage
+    - first do media query & flex jcspb, then show the effect of width
+  - footer very bottom section -> changing flex direction
+    - ignore social media buttons until (3)
+    - 1. do terms part
+      - use :after to do the bullets for the terms and realize afterwards that you will want flex so the items wrap nicely like Airbnb's
+    - 2. do spacing
+      - middle size starts at 744px
+        - social media buttons appear
+        - content is centered
+      - big size starts at 1128px
+        - 2nd and 3rd item get grouped to the left
+        - 1st item goes to the right
+    - 3. add in social media buttons
+  - cards grid
+    - show flex first and limited b/c one card looks bad for large screen that can only still fit one card
+    - this is a case for grid being better, because there's an easier solution for this
+  - grid challenge -> footer suggestions
+  - header / top section - changes a lot after 743px
+    - challenge or do?
+    - maybe challenge then do in a follow-up video?
+    - observations
+      - small -> medium
+        - top nav
+          - left - airbnb logo
+          - right - airbnb your home, globe, profile
+          - idea - already in html with display none
+        - second top nav
+          - centered - stays, experiences, online experiences
+          - idea - already in html with display none
+        - different search bar
+          - idea - do first with html already there, then show that sometimes it makes sense to do with js instead b/c html file might seem long
+        - category nav now has arrows
+          - idea - already in html with display none
+        - filters and a toggle are now next to category nav
+          - idea - already in html with display none
+      - medium -> big (950px)
+        - second top nav slides up in between both sides of the top nav
+          - idea - have second top nav be positioned relative to top nav
+            - medium screen - top 0, left: 50%, translate 50% or whatever
+            - big screen - top "-100%" (negative height of top nav)
+              - media query at 950px
+      - show that the above things can be done with js instead
+        - pro: html file is simpler and less confusing
+        - con: js file has more stuff
+          - why this is ok: react
