@@ -155,13 +155,56 @@ header .filter {
 nav {
   display: flex;
   gap: 25px;
-  padding: 10px 0px;
+  /* padding: 10px 0px; */
   overflow-x: scroll;
   /* hide scrollbar */
 }
 
 #housing-nav {
-  padding: 20px;
+  margin: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+#housing-nav__scroll-container {
+  overflow-x: auto;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-arrow {
+  position: absolute;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+
+.nav-arrow img {
+  width: 35px;
+  height: 35px;
+}
+
+.nav-arrow.left {
+  left: 0;
+}
+
+.nav-arrow.right {
+  right: 0;
+}
+
+.nav-arrow.left::after {
+  content: "";
+  height: 100%;
+  width: 20px;
+  background-color: linear-gradient(to right, white, rgba(255, 255, 255, 0));
+}
+
+.nav-arrow.right::before {
+  content: "";
+  height: 100%;
+  width: 20px;
+  background-color: linear-gradient(to left, white, rgba(255, 255, 255, 0));
 }
 
 main {
