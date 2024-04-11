@@ -137,6 +137,27 @@ footer {
   flex-direction: column;
 }
 
+.footer__last-info__settings {
+  font-weight: 600;
+  padding: 8px 0;
+}
+
+.footer__last-info__terms::after {
+  content: "•";
+  margin-left: 6px;
+  margin-right: 6px;
+  font-size: 6px;
+  vertical-align: middle;
+}
+
+.footer__last-info__terms:last-child::after {
+  content: none;
+}
+
+.footer__last-info__bottom-two-lines-container {
+  font-size: 14px;
+}
+
 @media screen and (min-width: 950px) {
   .footer__main-sections-container {
     flex-direction: row;
