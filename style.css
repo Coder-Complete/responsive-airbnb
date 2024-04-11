@@ -9,10 +9,13 @@ a {
 
 header {
   padding: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 #search-container {
-  width: 300px;
+  width: 70%;
+  max-width: 650px;
   padding: 10px;
   margin-right: 15px;
   margin-left: 25px;
